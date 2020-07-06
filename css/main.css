@@ -1,0 +1,196 @@
+body {
+   margin: 0;
+   padding: 0px 0px 0px 0px;
+   box-sizing: border-box;
+}
+
+@font-face {
+   font-family: "DancingScript";
+   src: url("../fonts/DancingScript-Regular.woff2") format("woff2"),
+      url("../fonts/DancingScript-Regular.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+.top {
+   padding: 300px 0px 35px 0px;
+   background-image: url(../img/Photo-Overlay.png);
+   background-position: center;
+   background-size: cover;
+   text-align: center;
+   position: relative;
+}
+.logo {
+   position: absolute;
+   top: 0px;
+   left: 650px;
+}
+.title {
+   color: white;
+   font-size: 58px;
+   position: relative;
+   font-family: "DancingScript";
+   margin: 0em;
+}
+.title::before {
+   content: "p";
+   position: absolute;
+   padding: 0 50px;
+   color: transparent;
+   border-top: 1px solid white;
+   top: 40px;
+   left: 340px;
+}
+.title::after {
+   content: "p";
+   position: absolute;
+   padding: 0 50px;
+   color: transparent;
+   border-top: 1px solid white;
+   top: 40px;
+   right: 340px;
+}
+
+.text {
+   color: whitesmoke;
+   font-size: 48px;
+   margin: 0;
+   font-family: "DancingScript";
+}
+.sub-title {
+   color: whitesmoke;
+   font-size: 20px;
+   margin-top: 22px;
+   font-family: "DancingScript";
+}
+.scrol-link {
+   display: block;
+   text-decoration: none;
+   color: whitesmoke;
+   font-family: "DancingScript";
+   margin-top: 93px;
+}
+.section {
+   background-image: url(../img/PhotoBG.jpg);
+   position: relative;
+   background-position: center;
+   background-size: cover;
+   padding-bottom: 1100px;
+}
+.section-img {
+   width: 315px;
+   height: auto;
+}
+.section__title {
+   color: whitesmoke;
+   font-size: 72px;
+   font-family: "DancingScript";
+   margin: 0;
+}
+.section__body {
+   display: flex;
+   justify-content: space-between;
+}
+.section__text {
+   margin-left: 100px;
+   margin-top: 50px;
+}
+.section__text p {
+   color: #cdb378;
+   font-size: 18px;
+   font-family: "DancingScript";
+}
+.section__main {
+   padding: 30px 380px 40px 79px;
+   position: absolute;
+   background: #232615;
+   top: 220px;
+}
+
+button {
+   background: #232615;
+   font-family: sans-serif;
+   padding: 10px 40px;
+   color: white;
+   border: 2px solid #404429;
+   cursor: pointer;
+}
+.section__main h2 {
+   font-family: "DancingScript";
+   color: #83764d;
+   font-size: 72px;
+}
+.section__main p {
+   font-family: "DancingScript";
+   color: white;
+   font-size: 24px;
+}
+.beer {
+   height: 600px;
+   position: absolute;
+   z-index: 4;
+   position: absolute;
+   z-index: 4;
+   top: -132px;
+   right: 79px;
+}
+.catalog {
+   background-image: url(../img/Photo2.png);
+   padding: 245px;
+   margin-top: 283px;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+.catolog__text {
+   margin: 0;
+   font-size: 72px;
+   font-family: "DancingScript";
+   position: absolute;
+   right: 100px;
+}
+.Handcrafted {
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+   padding: 20px;
+}
+.Handcrafted__text {
+   max-width: 500px;
+   margin-left: 100px;
+}
+.Handcrafted__text h2 {
+   color: #83764d;
+   font-family: "DancingScript";
+   font-size: 48px;
+}
+.Handcrafted__text p {
+   color: #b4ba98;
+   font-family: "DancingScript";
+   font-size: 24px;
+}
+.Handcrafted__img {
+   position: absolute;
+   width: 500px;
+   height: auto;
+   right: 0;
+   top: -50px;
+}
+.footer__title{
+   color: #83764d;
+   font-family: "DancingScript";
+   font-size: 72px;
+   text-align: center;
+   margin: 0;
+}
+.footer{
+   text-align: center;
+   padding: 200px;
+}
+.footer p{
+   font-family: "DancingScript";
+   font-size: 20px;
+   color: white;
+   margin: 30px;
+}
